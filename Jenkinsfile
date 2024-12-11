@@ -22,7 +22,7 @@ pipeline {
             steps {
                 sh '''
                     echo "without docker"
-                    touch "without-container.txtt"
+                    touch "without-container.txt"
                 '''
             }
         }
