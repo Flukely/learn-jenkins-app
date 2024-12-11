@@ -14,7 +14,7 @@ pipeline {
             steps {
                 sh '''
                     echo "with docker"
-                    ls -la
+                    npm --version
                     touch "with-container.txt"
                 '''
             }
